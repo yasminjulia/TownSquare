@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="67889522-1470-4868-81f2-ce4174347cb6" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1lGh4k0kq8eECSUEwfVZY0owgn1" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Yasmin\IdeaProjects\townsq_challenge\src\main\resources" />
+      <recent name="C:\Users\Yasmin\IdeaProjects\townsq_challenge" />
+      <recent name="C:\Users\Yasmin\IdeaProjects\townsq_challenge\" />
+      <recent name="C:\Users\Yasmin\IdeaProjects\townsq_challenge\components" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.Challenge">
+    <configuration name="Challenge" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="townsq_challenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.Challenge" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Challenge.creating" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="townsq_challenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.Challenge" />
+      <option name="METHOD_NAME" value="creating" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Challenge.faz" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="townsq_challenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.Challenge" />
+      <option name="METHOD_NAME" value="faz" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Challenge.login" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="townsq_challenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.Challenge" />
+      <option name="METHOD_NAME" value="login" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.Challenge" />
+        <item itemvalue="TestNG.Challenge.login" />
+        <item itemvalue="TestNG.Challenge.faz" />
+        <item itemvalue="TestNG.Challenge.creating" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="67889522-1470-4868-81f2-ce4174347cb6" name="Default Changelist" comment="" />
+      <created>1607229145781</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607229145781</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1368" height="206" key="GridCell.Tab.0.bottom" timestamp="1607443599209">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1368" height="206" key="GridCell.Tab.0.bottom/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1607443599209" />
+    <state width="1368" height="206" key="GridCell.Tab.0.center" timestamp="1607443599208">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1368" height="206" key="GridCell.Tab.0.center/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1607443599208" />
+    <state width="1368" height="206" key="GridCell.Tab.0.left" timestamp="1607443599208">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1368" height="206" key="GridCell.Tab.0.left/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1607443599208" />
+    <state width="1368" height="206" key="GridCell.Tab.0.right" timestamp="1607443599208">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1368" height="206" key="GridCell.Tab.0.right/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1607443599208" />
+    <state width="1368" height="257" key="GridCell.Tab.1.bottom" timestamp="1607395936165">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1368" height="257" key="GridCell.Tab.1.bottom/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1607395936165" />
+    <state width="1368" height="257" key="GridCell.Tab.1.center" timestamp="1607395936164">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1368" height="257" key="GridCell.Tab.1.center/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1607395936164" />
+    <state width="1368" height="257" key="GridCell.Tab.1.left" timestamp="1607395936164">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1368" height="257" key="GridCell.Tab.1.left/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1607395936164" />
+    <state width="1368" height="257" key="GridCell.Tab.1.right" timestamp="1607395936164">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1368" height="257" key="GridCell.Tab.1.right/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1607395936164" />
+    <state x="137" y="3" key="Maven.ArtifactSearchDialog" timestamp="1607305768539">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="137" y="3" key="Maven.ArtifactSearchDialog/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1607305768539" />
+    <state x="351" y="212" key="com.intellij.ide.util.TipDialog" timestamp="1607442262682">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="351" y="212" key="com.intellij.ide.util.TipDialog/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1607442262682" />
+    <state x="373" y="303" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1607230136640">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="373" y="303" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1607230136640" />
+    <state x="402" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1607307941783">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="402" y="0" key="refactoring.ChangeSignatureDialog/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1607307941783" />
+    <state x="299" y="-1" key="search.everywhere.popup" timestamp="1607309843571">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="299" y="-1" key="search.everywhere.popup/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1607309843571" />
+  </component>
+</project>

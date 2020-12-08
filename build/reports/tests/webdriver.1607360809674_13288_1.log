@@ -1,0 +1,206 @@
+[1607360810.546][INFO]: Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 14022
+[1607360810.547][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1607360811.884][INFO]: [dd40980e632b87bb5485022de87c6f78] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "acceptInsecureCerts": true,
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\Yasmin\\IdeaProjects\\townsq_challenge\\build\\downloads\\1607360803348_13288_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      },
+      "desiredCapabilities": {
+         "acceptInsecureCerts": true,
+         "acceptSslCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\Yasmin\\IdeaProjects\\townsq_challenge\\build\\downloads\\1607360803348_13288_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "handlesAlerts": true,
+         "javascriptEnabled": true,
+         "pageLoadStrategy": "normal",
+         "takesScreenshot": true
+      },
+      "firstMatch": [ {
+         "browserName": "chrome"
+      } ],
+      "requiredCapabilities": {
+
+      }
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\Yasmin\\IdeaProjects\\townsq_challenge\\build\\downloads\\1607360803348_13288_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   },
+   "requiredCapabilities": {
+
+   }
+}
+[1607360811.903][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\Yasmin\\IdeaProjects\\townsq_challenge\\build\\downloads\\1607360803348_13288_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1607360811.928][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1607360811.934][INFO]: Launching chrome: "C:\Users\Yasmin\AppData\Local\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Yasmin\AppData\Local\Temp\scoped_dir5816_1108950329" data:,
+[1607360815.067][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1607360817.326][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1607360819.451][INFO]: [dd40980e632b87bb5485022de87c6f78] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "86.0.4240.198",
+      "chrome": {
+         "chromedriverVersion": "86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378})",
+         "userDataDir": "C:\\Users\\Yasmin\\AppData\\Local\\Temp\\scoped_dir5816_1108950329"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:56300"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "dd40980e632b87bb5485022de87c6f78"
+}
+[1607360819.690][INFO]: [dd40980e632b87bb5485022de87c6f78] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1607360819.690][INFO]: Waiting for pending navigations...
+[1607360819.695][INFO]: Done waiting for pending navigations. Status: ok
+[1607360819.826][INFO]: Waiting for pending navigations...
+[1607360819.828][INFO]: Done waiting for pending navigations. Status: ok
+[1607360819.828][INFO]: [dd40980e632b87bb5485022de87c6f78] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 10
+}
+[1607360819.866][INFO]: [dd40980e632b87bb5485022de87c6f78] COMMAND Navigate {
+   "url": "https://qa.townsq.io"
+}
+[1607360819.866][INFO]: Waiting for pending navigations...
+[1607360819.868][INFO]: Done waiting for pending navigations. Status: ok
+[1607360821.179][INFO]: Waiting for pending navigations...
+[1607360830.754][INFO]: Done waiting for pending navigations. Status: ok
+[1607360830.754][INFO]: [dd40980e632b87bb5485022de87c6f78] RESPONSE Navigate
+[1607360834.008][INFO]: [dd40980e632b87bb5485022de87c6f78] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[input#login--input--email"
+}
+[1607360839.532][INFO]: Waiting for pending navigations...
+[1607360840.492][INFO]: Done waiting for pending navigations. Status: ok
+[1607360840.971][INFO]: Waiting for pending navigations...
+[1607360840.975][INFO]: Done waiting for pending navigations. Status: ok
+[1607360840.975][INFO]: [dd40980e632b87bb5485022de87c6f78] RESPONSE FindElement ERROR invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=86.0.4240.198)
+[1607360841.404][INFO]: [dd40980e632b87bb5485022de87c6f78] COMMAND Quit {
+
+}
+[1607360843.599][INFO]: [dd40980e632b87bb5485022de87c6f78] RESPONSE Quit

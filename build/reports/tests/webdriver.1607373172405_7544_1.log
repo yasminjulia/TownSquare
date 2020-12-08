@@ -1,0 +1,423 @@
+[1607373173.467][INFO]: Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 35598
+[1607373173.468][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1607373174.876][INFO]: [582c03fabd2202bc08424008f4b8a49f] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "acceptInsecureCerts": true,
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\Yasmin\\IdeaProjects\\townsq_challenge\\build\\downloads\\1607373165850_7544_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      },
+      "desiredCapabilities": {
+         "acceptInsecureCerts": true,
+         "acceptSslCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\Yasmin\\IdeaProjects\\townsq_challenge\\build\\downloads\\1607373165850_7544_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "handlesAlerts": true,
+         "javascriptEnabled": true,
+         "pageLoadStrategy": "normal",
+         "takesScreenshot": true
+      },
+      "firstMatch": [ {
+         "browserName": "chrome"
+      } ],
+      "requiredCapabilities": {
+
+      }
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\Yasmin\\IdeaProjects\\townsq_challenge\\build\\downloads\\1607373165850_7544_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   },
+   "requiredCapabilities": {
+
+   }
+}
+[1607373174.940][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\Yasmin\\IdeaProjects\\townsq_challenge\\build\\downloads\\1607373165850_7544_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1607373175.037][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1607373175.043][INFO]: Launching chrome: "C:\Users\Yasmin\AppData\Local\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Yasmin\AppData\Local\Temp\scoped_dir14664_1701001690" data:,
+[1607373179.771][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1607373181.792][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1607373183.818][INFO]: [582c03fabd2202bc08424008f4b8a49f] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "86.0.4240.198",
+      "chrome": {
+         "chromedriverVersion": "86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378})",
+         "userDataDir": "C:\\Users\\Yasmin\\AppData\\Local\\Temp\\scoped_dir14664_1701001690"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:64640"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "582c03fabd2202bc08424008f4b8a49f"
+}
+[1607373184.064][INFO]: [582c03fabd2202bc08424008f4b8a49f] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1607373184.064][INFO]: Waiting for pending navigations...
+[1607373184.069][INFO]: Done waiting for pending navigations. Status: ok
+[1607373184.210][INFO]: Waiting for pending navigations...
+[1607373184.212][INFO]: Done waiting for pending navigations. Status: ok
+[1607373184.212][INFO]: [582c03fabd2202bc08424008f4b8a49f] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 10
+}
+[1607373184.239][INFO]: [582c03fabd2202bc08424008f4b8a49f] COMMAND Navigate {
+   "url": "https://qa.townsq.io/login"
+}
+[1607373184.239][INFO]: Waiting for pending navigations...
+[1607373184.241][INFO]: Done waiting for pending navigations. Status: ok
+[1607373192.028][INFO]: Waiting for pending navigations...
+[1607373213.608][INFO]: Done waiting for pending navigations. Status: ok
+[1607373213.608][INFO]: [582c03fabd2202bc08424008f4b8a49f] RESPONSE Navigate
+[1607373229.018][INFO]: [582c03fabd2202bc08424008f4b8a49f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html//input[@id='login--input--email']"
+}
+[1607373229.019][INFO]: Waiting for pending navigations...
+[1607373229.021][INFO]: Done waiting for pending navigations. Status: ok
+[1607373229.055][INFO]: Waiting for pending navigations...
+[1607373229.056][INFO]: Done waiting for pending navigations. Status: ok
+[1607373229.056][INFO]: [582c03fabd2202bc08424008f4b8a49f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html//input[@id='login--input--email']"}
+  (Session info: chrome=86.0.4240.198)
+[1607373229.324][INFO]: [582c03fabd2202bc08424008f4b8a49f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html//input[@id='login--input--email']"
+}
+[1607373229.324][INFO]: Waiting for pending navigations...
+[1607373229.325][INFO]: Done waiting for pending navigations. Status: ok
+[1607373229.345][INFO]: Waiting for pending navigations...
+[1607373229.346][INFO]: Done waiting for pending navigations. Status: ok
+[1607373229.346][INFO]: [582c03fabd2202bc08424008f4b8a49f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html//input[@id='login--input--email']"}
+  (Session info: chrome=86.0.4240.198)
+[1607373229.567][INFO]: [582c03fabd2202bc08424008f4b8a49f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html//input[@id='login--input--email']"
+}
+[1607373229.568][INFO]: Waiting for pending navigations...
+[1607373229.569][INFO]: Done waiting for pending navigations. Status: ok
+[1607373229.588][INFO]: Waiting for pending navigations...
+[1607373229.589][INFO]: Done waiting for pending navigations. Status: ok
+[1607373229.589][INFO]: [582c03fabd2202bc08424008f4b8a49f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html//input[@id='login--input--email']"}
+  (Session info: chrome=86.0.4240.198)
+[1607373229.806][INFO]: [582c03fabd2202bc08424008f4b8a49f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html//input[@id='login--input--email']"
+}
+[1607373229.806][INFO]: Waiting for pending navigations...
+[1607373229.808][INFO]: Done waiting for pending navigations. Status: ok
+[1607373229.828][INFO]: Waiting for pending navigations...
+[1607373229.830][INFO]: Done waiting for pending navigations. Status: ok
+[1607373229.830][INFO]: [582c03fabd2202bc08424008f4b8a49f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html//input[@id='login--input--email']"}
+  (Session info: chrome=86.0.4240.198)
+[1607373230.045][INFO]: [582c03fabd2202bc08424008f4b8a49f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html//input[@id='login--input--email']"
+}
+[1607373230.045][INFO]: Waiting for pending navigations...
+[1607373230.047][INFO]: Done waiting for pending navigations. Status: ok
+[1607373230.061][INFO]: Waiting for pending navigations...
+[1607373230.062][INFO]: Done waiting for pending navigations. Status: ok
+[1607373230.062][INFO]: [582c03fabd2202bc08424008f4b8a49f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html//input[@id='login--input--email']"}
+  (Session info: chrome=86.0.4240.198)
+[1607373230.276][INFO]: [582c03fabd2202bc08424008f4b8a49f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html//input[@id='login--input--email']"
+}
+[1607373230.276][INFO]: Waiting for pending navigations...
+[1607373230.278][INFO]: Done waiting for pending navigations. Status: ok
+[1607373230.291][INFO]: Waiting for pending navigations...
+[1607373230.293][INFO]: Done waiting for pending navigations. Status: ok
+[1607373230.293][INFO]: [582c03fabd2202bc08424008f4b8a49f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html//input[@id='login--input--email']"}
+  (Session info: chrome=86.0.4240.198)
+[1607373230.505][INFO]: [582c03fabd2202bc08424008f4b8a49f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html//input[@id='login--input--email']"
+}
+[1607373230.505][INFO]: Waiting for pending navigations...
+[1607373230.507][INFO]: Done waiting for pending navigations. Status: ok
+[1607373230.519][INFO]: Waiting for pending navigations...
+[1607373230.521][INFO]: Done waiting for pending navigations. Status: ok
+[1607373230.521][INFO]: [582c03fabd2202bc08424008f4b8a49f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html//input[@id='login--input--email']"}
+  (Session info: chrome=86.0.4240.198)
+[1607373230.734][INFO]: [582c03fabd2202bc08424008f4b8a49f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html//input[@id='login--input--email']"
+}
+[1607373230.734][INFO]: Waiting for pending navigations...
+[1607373230.736][INFO]: Done waiting for pending navigations. Status: ok
+[1607373230.750][INFO]: Waiting for pending navigations...
+[1607373230.752][INFO]: Done waiting for pending navigations. Status: ok
+[1607373230.752][INFO]: [582c03fabd2202bc08424008f4b8a49f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html//input[@id='login--input--email']"}
+  (Session info: chrome=86.0.4240.198)
+[1607373230.977][INFO]: [582c03fabd2202bc08424008f4b8a49f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html//input[@id='login--input--email']"
+}
+[1607373230.977][INFO]: Waiting for pending navigations...
+[1607373230.979][INFO]: Done waiting for pending navigations. Status: ok
+[1607373230.996][INFO]: Waiting for pending navigations...
+[1607373230.997][INFO]: Done waiting for pending navigations. Status: ok
+[1607373230.998][INFO]: [582c03fabd2202bc08424008f4b8a49f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html//input[@id='login--input--email']"}
+  (Session info: chrome=86.0.4240.198)
+[1607373231.211][INFO]: [582c03fabd2202bc08424008f4b8a49f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html//input[@id='login--input--email']"
+}
+[1607373231.211][INFO]: Waiting for pending navigations...
+[1607373231.213][INFO]: Done waiting for pending navigations. Status: ok
+[1607373231.227][INFO]: Waiting for pending navigations...
+[1607373231.228][INFO]: Done waiting for pending navigations. Status: ok
+[1607373231.228][INFO]: [582c03fabd2202bc08424008f4b8a49f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html//input[@id='login--input--email']"}
+  (Session info: chrome=86.0.4240.198)
+[1607373231.439][INFO]: [582c03fabd2202bc08424008f4b8a49f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html//input[@id='login--input--email']"
+}
+[1607373231.440][INFO]: Waiting for pending navigations...
+[1607373231.442][INFO]: Done waiting for pending navigations. Status: ok
+[1607373231.454][INFO]: Waiting for pending navigations...
+[1607373231.456][INFO]: Done waiting for pending navigations. Status: ok
+[1607373231.456][INFO]: [582c03fabd2202bc08424008f4b8a49f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html//input[@id='login--input--email']"}
+  (Session info: chrome=86.0.4240.198)
+[1607373231.669][INFO]: [582c03fabd2202bc08424008f4b8a49f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html//input[@id='login--input--email']"
+}
+[1607373231.669][INFO]: Waiting for pending navigations...
+[1607373231.671][INFO]: Done waiting for pending navigations. Status: ok
+[1607373231.684][INFO]: Waiting for pending navigations...
+[1607373231.686][INFO]: Done waiting for pending navigations. Status: ok
+[1607373231.686][INFO]: [582c03fabd2202bc08424008f4b8a49f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html//input[@id='login--input--email']"}
+  (Session info: chrome=86.0.4240.198)
+[1607373231.899][INFO]: [582c03fabd2202bc08424008f4b8a49f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html//input[@id='login--input--email']"
+}
+[1607373231.899][INFO]: Waiting for pending navigations...
+[1607373231.902][INFO]: Done waiting for pending navigations. Status: ok
+[1607373231.921][INFO]: Waiting for pending navigations...
+[1607373231.923][INFO]: Done waiting for pending navigations. Status: ok
+[1607373231.923][INFO]: [582c03fabd2202bc08424008f4b8a49f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html//input[@id='login--input--email']"}
+  (Session info: chrome=86.0.4240.198)
+[1607373232.138][INFO]: [582c03fabd2202bc08424008f4b8a49f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html//input[@id='login--input--email']"
+}
+[1607373232.138][INFO]: Waiting for pending navigations...
+[1607373232.140][INFO]: Done waiting for pending navigations. Status: ok
+[1607373232.154][INFO]: Waiting for pending navigations...
+[1607373232.155][INFO]: Done waiting for pending navigations. Status: ok
+[1607373232.156][INFO]: [582c03fabd2202bc08424008f4b8a49f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html//input[@id='login--input--email']"}
+  (Session info: chrome=86.0.4240.198)
+[1607373232.369][INFO]: [582c03fabd2202bc08424008f4b8a49f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html//input[@id='login--input--email']"
+}
+[1607373232.369][INFO]: Waiting for pending navigations...
+[1607373232.370][INFO]: Done waiting for pending navigations. Status: ok
+[1607373232.387][INFO]: Waiting for pending navigations...
+[1607373232.388][INFO]: Done waiting for pending navigations. Status: ok
+[1607373232.389][INFO]: [582c03fabd2202bc08424008f4b8a49f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html//input[@id='login--input--email']"}
+  (Session info: chrome=86.0.4240.198)
+[1607373232.603][INFO]: [582c03fabd2202bc08424008f4b8a49f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html//input[@id='login--input--email']"
+}
+[1607373232.603][INFO]: Waiting for pending navigations...
+[1607373232.605][INFO]: Done waiting for pending navigations. Status: ok
+[1607373232.622][INFO]: Waiting for pending navigations...
+[1607373232.623][INFO]: Done waiting for pending navigations. Status: ok
+[1607373232.624][INFO]: [582c03fabd2202bc08424008f4b8a49f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html//input[@id='login--input--email']"}
+  (Session info: chrome=86.0.4240.198)
+[1607373232.838][INFO]: [582c03fabd2202bc08424008f4b8a49f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html//input[@id='login--input--email']"
+}
+[1607373232.838][INFO]: Waiting for pending navigations...
+[1607373232.840][INFO]: Done waiting for pending navigations. Status: ok
+[1607373232.852][INFO]: Waiting for pending navigations...
+[1607373232.854][INFO]: Done waiting for pending navigations. Status: ok
+[1607373232.854][INFO]: [582c03fabd2202bc08424008f4b8a49f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html//input[@id='login--input--email']"}
+  (Session info: chrome=86.0.4240.198)
+[1607373233.079][INFO]: [582c03fabd2202bc08424008f4b8a49f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html//input[@id='login--input--email']"
+}
+[1607373233.079][INFO]: Waiting for pending navigations...
+[1607373233.088][INFO]: Done waiting for pending navigations. Status: ok
+[1607373233.117][INFO]: Waiting for pending navigations...
+[1607373233.119][INFO]: Done waiting for pending navigations. Status: ok
+[1607373233.119][INFO]: [582c03fabd2202bc08424008f4b8a49f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html//input[@id='login--input--email']"}
+  (Session info: chrome=86.0.4240.198)
+[1607373233.330][INFO]: [582c03fabd2202bc08424008f4b8a49f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html//input[@id='login--input--email']"
+}
+[1607373233.331][INFO]: Waiting for pending navigations...
+[1607373233.333][INFO]: Done waiting for pending navigations. Status: ok
+[1607373233.346][INFO]: Waiting for pending navigations...
+[1607373233.348][INFO]: Done waiting for pending navigations. Status: ok
+[1607373233.348][INFO]: [582c03fabd2202bc08424008f4b8a49f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html//input[@id='login--input--email']"}
+  (Session info: chrome=86.0.4240.198)
+[1607373233.560][INFO]: [582c03fabd2202bc08424008f4b8a49f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html//input[@id='login--input--email']"
+}
+[1607373233.560][INFO]: Waiting for pending navigations...
+[1607373233.563][INFO]: Done waiting for pending navigations. Status: ok
+[1607373233.580][INFO]: Waiting for pending navigations...
+[1607373233.582][INFO]: Done waiting for pending navigations. Status: ok
+[1607373233.582][INFO]: [582c03fabd2202bc08424008f4b8a49f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html//input[@id='login--input--email']"}
+  (Session info: chrome=86.0.4240.198)
+[1607373233.794][INFO]: [582c03fabd2202bc08424008f4b8a49f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html//input[@id='login--input--email']"
+}
+[1607373233.794][INFO]: Waiting for pending navigations...
+[1607373233.796][INFO]: Done waiting for pending navigations. Status: ok
+[1607373233.811][INFO]: Waiting for pending navigations...
+[1607373233.812][INFO]: Done waiting for pending navigations. Status: ok
+[1607373233.812][INFO]: [582c03fabd2202bc08424008f4b8a49f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html//input[@id='login--input--email']"}
+  (Session info: chrome=86.0.4240.198)
+[1607373234.045][INFO]: [582c03fabd2202bc08424008f4b8a49f] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1607373234.045][INFO]: Waiting for pending navigations...
+[1607373234.047][INFO]: Done waiting for pending navigations. Status: ok
+[1607373234.424][INFO]: Waiting for pending navigations...
+[1607373234.426][INFO]: Done waiting for pending navigations. Status: ok
+[1607373234.428][INFO]: [582c03fabd2202bc08424008f4b8a49f] RESPONSE ExecuteScript "\u003Chtml lang=\"en\">\u003Chead>\n  \u003Cmeta charset=\"utf-8\">\n  \u003Ctitle>TownSq\u003C/title>\n  \u003Cbase href=\"/\">\n\n  \u003C!--FAVICON & TOUCH ICON TAGS-->\n  \u003Cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n..."
+[1607373235.542][INFO]: [582c03fabd2202bc08424008f4b8a49f] COMMAND Screenshot {
+
+}
+[1607373235.542][INFO]: Waiting for pending navigations...
+[1607373235.544][INFO]: Done waiting for pending navigations. Status: ok
+[1607373236.093][INFO]: Waiting for pending navigations...
+[1607373236.095][INFO]: Done waiting for pending navigations. Status: ok
+[1607373236.095][INFO]: [582c03fabd2202bc08424008f4b8a49f] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABVcAAAJ2CAYAAABb8LKUAAAAAXNSR0IArs4c6QAAEpVJREFUeJzt2MENwCAQwLDS/Xc+ZiAfhGRPkHfWzMwHAAAAAMCR/3YAAAAAAMCLzFUAAAAAgMBcBQAAAAAIzFUAAAAAgMBcBQAAAAAIzFUAAAAAgMBcBQAAAAAIzFUAAAAAg..."
+[1607373237.013][INFO]: [582c03fabd2202bc08424008f4b8a49f] COMMAND Quit {
+
+}
+[1607373239.790][INFO]: [582c03fabd2202bc08424008f4b8a49f] RESPONSE Quit

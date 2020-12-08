@@ -1,0 +1,283 @@
+[1607312399.948][INFO]: Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 47849
+[1607312399.949][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1607312401.219][INFO]: [fff24e4c4a5118b1b1abad29eb136b9a] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "acceptInsecureCerts": true,
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\Yasmin\\IdeaProjects\\townsq_challenge\\build\\downloads\\1607312391652_1676_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      },
+      "desiredCapabilities": {
+         "acceptInsecureCerts": true,
+         "acceptSslCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\Yasmin\\IdeaProjects\\townsq_challenge\\build\\downloads\\1607312391652_1676_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "handlesAlerts": true,
+         "javascriptEnabled": true,
+         "pageLoadStrategy": "normal",
+         "takesScreenshot": true
+      },
+      "firstMatch": [ {
+         "browserName": "chrome"
+      } ],
+      "requiredCapabilities": {
+
+      }
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\Yasmin\\IdeaProjects\\townsq_challenge\\build\\downloads\\1607312391652_1676_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   },
+   "requiredCapabilities": {
+
+   }
+}
+[1607312401.230][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\Yasmin\\IdeaProjects\\townsq_challenge\\build\\downloads\\1607312391652_1676_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1607312401.261][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1607312401.266][INFO]: Launching chrome: "C:\Users\Yasmin\AppData\Local\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Yasmin\AppData\Local\Temp\scoped_dir5164_1213307291" data:,
+[1607312403.787][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1607312405.802][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1607312407.827][INFO]: [fff24e4c4a5118b1b1abad29eb136b9a] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "86.0.4240.198",
+      "chrome": {
+         "chromedriverVersion": "86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378})",
+         "userDataDir": "C:\\Users\\Yasmin\\AppData\\Local\\Temp\\scoped_dir5164_1213307291"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:61753"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "fff24e4c4a5118b1b1abad29eb136b9a"
+}
+[1607312408.073][INFO]: [fff24e4c4a5118b1b1abad29eb136b9a] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1607312408.073][INFO]: Waiting for pending navigations...
+[1607312408.078][INFO]: Done waiting for pending navigations. Status: ok
+[1607312408.194][INFO]: Waiting for pending navigations...
+[1607312408.196][INFO]: Done waiting for pending navigations. Status: ok
+[1607312408.196][INFO]: [fff24e4c4a5118b1b1abad29eb136b9a] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 10
+}
+[1607312408.221][INFO]: [fff24e4c4a5118b1b1abad29eb136b9a] COMMAND Navigate {
+   "url": "https://qa.townsq.io"
+}
+[1607312408.221][INFO]: Waiting for pending navigations...
+[1607312408.223][INFO]: Done waiting for pending navigations. Status: ok
+[1607312409.486][INFO]: Waiting for pending navigations...
+[1607312419.162][INFO]: Done waiting for pending navigations. Status: ok
+[1607312419.162][INFO]: [fff24e4c4a5118b1b1abad29eb136b9a] RESPONSE Navigate
+[1607312422.388][INFO]: [fff24e4c4a5118b1b1abad29eb136b9a] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-cy='email']"
+}
+[1607312422.390][INFO]: Waiting for pending navigations...
+[1607312422.394][INFO]: Done waiting for pending navigations. Status: ok
+[1607312422.428][INFO]: Waiting for pending navigations...
+[1607312422.430][INFO]: Done waiting for pending navigations. Status: ok
+[1607312422.430][INFO]: [fff24e4c4a5118b1b1abad29eb136b9a] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-cy='email']"}
+  (Session info: chrome=86.0.4240.198)
+[1607312422.672][INFO]: [fff24e4c4a5118b1b1abad29eb136b9a] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-cy='email']"
+}
+[1607312422.673][INFO]: Waiting for pending navigations...
+[1607312422.675][INFO]: Done waiting for pending navigations. Status: ok
+[1607312422.697][INFO]: Waiting for pending navigations...
+[1607312422.699][INFO]: Done waiting for pending navigations. Status: ok
+[1607312422.699][INFO]: [fff24e4c4a5118b1b1abad29eb136b9a] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-cy='email']"}
+  (Session info: chrome=86.0.4240.198)
+[1607312422.913][INFO]: [fff24e4c4a5118b1b1abad29eb136b9a] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-cy='email']"
+}
+[1607312422.913][INFO]: Waiting for pending navigations...
+[1607312422.914][INFO]: Done waiting for pending navigations. Status: ok
+[1607312422.930][INFO]: Waiting for pending navigations...
+[1607312422.933][INFO]: Done waiting for pending navigations. Status: ok
+[1607312422.933][INFO]: [fff24e4c4a5118b1b1abad29eb136b9a] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-cy='email']"}
+  (Session info: chrome=86.0.4240.198)
+[1607312423.147][INFO]: [fff24e4c4a5118b1b1abad29eb136b9a] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-cy='email']"
+}
+[1607312423.147][INFO]: Waiting for pending navigations...
+[1607312423.149][INFO]: Done waiting for pending navigations. Status: ok
+[1607312423.166][INFO]: Waiting for pending navigations...
+[1607312423.168][INFO]: Done waiting for pending navigations. Status: ok
+[1607312423.168][INFO]: [fff24e4c4a5118b1b1abad29eb136b9a] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-cy='email']"}
+  (Session info: chrome=86.0.4240.198)
+[1607312423.384][INFO]: [fff24e4c4a5118b1b1abad29eb136b9a] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-cy='email']"
+}
+[1607312423.384][INFO]: Waiting for pending navigations...
+[1607312423.386][INFO]: Done waiting for pending navigations. Status: ok
+[1607312423.402][INFO]: Waiting for pending navigations...
+[1607312423.404][INFO]: Done waiting for pending navigations. Status: ok
+[1607312423.404][INFO]: [fff24e4c4a5118b1b1abad29eb136b9a] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-cy='email']"}
+  (Session info: chrome=86.0.4240.198)
+[1607312423.617][INFO]: [fff24e4c4a5118b1b1abad29eb136b9a] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-cy='email']"
+}
+[1607312423.617][INFO]: Waiting for pending navigations...
+[1607312423.618][INFO]: Done waiting for pending navigations. Status: ok
+[1607312423.636][INFO]: Waiting for pending navigations...
+[1607312423.638][INFO]: Done waiting for pending navigations. Status: ok
+[1607312423.638][INFO]: [fff24e4c4a5118b1b1abad29eb136b9a] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-cy='email']"}
+  (Session info: chrome=86.0.4240.198)
+[1607312423.853][INFO]: [fff24e4c4a5118b1b1abad29eb136b9a] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-cy='email']"
+}
+[1607312423.853][INFO]: Waiting for pending navigations...
+[1607312424.408][INFO]: Done waiting for pending navigations. Status: ok
+[1607312429.780][INFO]: Waiting for pending navigations...
+[1607312429.822][INFO]: Done waiting for pending navigations. Status: ok
+[1607312429.822][INFO]: [fff24e4c4a5118b1b1abad29eb136b9a] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-cy='email']"}
+  (Session info: chrome=86.0.4240.198)
+[1607312430.131][INFO]: [fff24e4c4a5118b1b1abad29eb136b9a] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1607312430.132][INFO]: Waiting for pending navigations...
+[1607312430.218][INFO]: Done waiting for pending navigations. Status: ok
+[1607312431.015][INFO]: Waiting for pending navigations...
+[1607312431.057][INFO]: Done waiting for pending navigations. Status: ok
+[1607312431.064][INFO]: [fff24e4c4a5118b1b1abad29eb136b9a] RESPONSE ExecuteScript "\u003Chtml lang=\"en\" class=\"windows desktop landscape\">\u003Chead>\n  \u003Cmeta charset=\"utf-8\">\n  \u003Ctitle>TownSq\u003C/title>\n  \u003Cbase href=\"/\">\n\n  \u003C!--FAVICON & TOUCH ICON TAGS-->\n  \u003Cmeta name=\"viewport\" content=\"widt..."
+[1607312432.083][INFO]: [fff24e4c4a5118b1b1abad29eb136b9a] COMMAND Screenshot {
+
+}
+[1607312432.083][INFO]: Waiting for pending navigations...
+[1607312432.085][INFO]: Done waiting for pending navigations. Status: ok
+[1607312432.727][INFO]: Waiting for pending navigations...
+[1607312432.731][INFO]: Done waiting for pending navigations. Status: ok
+[1607312432.732][INFO]: [fff24e4c4a5118b1b1abad29eb136b9a] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABUYAAAKoCAYAAAC7qCUdAAAAAXNSR0IArs4c6QAAIABJREFUeJzsvWuwZcd1Hvat3vvce2fuDGYwwAzxJgASpAABJPiACJGUTYESqZBSmKJj2Y4j+pHSDydWObZVqVTFqVRcTuVHGJdT5cQq0y4/fsiRZMlWSZQDPSxSEglSoEVQQ..."
+[1607312433.817][INFO]: [fff24e4c4a5118b1b1abad29eb136b9a] COMMAND Quit {
+
+}
+[1607312436.978][INFO]: [fff24e4c4a5118b1b1abad29eb136b9a] RESPONSE Quit

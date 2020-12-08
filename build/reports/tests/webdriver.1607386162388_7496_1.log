@@ -1,0 +1,263 @@
+[1607386164.495][INFO]: Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 29251
+[1607386164.495][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1607386165.657][INFO]: [38179c7c942345a0f3dc22d4f489fd1a] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "acceptInsecureCerts": true,
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\Yasmin\\IdeaProjects\\townsq_challenge\\build\\downloads\\1607386149511_7496_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      },
+      "desiredCapabilities": {
+         "acceptInsecureCerts": true,
+         "acceptSslCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\Yasmin\\IdeaProjects\\townsq_challenge\\build\\downloads\\1607386149511_7496_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "handlesAlerts": true,
+         "javascriptEnabled": true,
+         "pageLoadStrategy": "normal",
+         "takesScreenshot": true
+      },
+      "firstMatch": [ {
+         "browserName": "chrome"
+      } ],
+      "requiredCapabilities": {
+
+      }
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\Yasmin\\IdeaProjects\\townsq_challenge\\build\\downloads\\1607386149511_7496_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   },
+   "requiredCapabilities": {
+
+   }
+}
+[1607386165.697][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\Yasmin\\IdeaProjects\\townsq_challenge\\build\\downloads\\1607386149511_7496_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1607386165.788][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1607386165.935][INFO]: Launching chrome: "C:\Users\Yasmin\AppData\Local\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Yasmin\AppData\Local\Temp\scoped_dir15752_41967748" data:,
+[1607386172.762][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1607386174.998][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1607386182.640][INFO]: [38179c7c942345a0f3dc22d4f489fd1a] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "86.0.4240.198",
+      "chrome": {
+         "chromedriverVersion": "86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378})",
+         "userDataDir": "C:\\Users\\Yasmin\\AppData\\Local\\Temp\\scoped_dir15752_41967748"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:51653"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "38179c7c942345a0f3dc22d4f489fd1a"
+}
+[1607386183.149][INFO]: [38179c7c942345a0f3dc22d4f489fd1a] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1607386183.149][INFO]: Waiting for pending navigations...
+[1607386183.151][INFO]: Done waiting for pending navigations. Status: ok
+[1607386183.307][INFO]: Waiting for pending navigations...
+[1607386183.311][INFO]: Done waiting for pending navigations. Status: ok
+[1607386183.311][INFO]: [38179c7c942345a0f3dc22d4f489fd1a] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 10
+}
+[1607386183.346][INFO]: [38179c7c942345a0f3dc22d4f489fd1a] COMMAND Navigate {
+   "url": "https://qa.townsq.io/login"
+}
+[1607386183.346][INFO]: Waiting for pending navigations...
+[1607386183.348][INFO]: Done waiting for pending navigations. Status: ok
+[1607386184.767][INFO]: Waiting for pending navigations...
+[1607386198.838][INFO]: Done waiting for pending navigations. Status: ok
+[1607386198.838][INFO]: [38179c7c942345a0f3dc22d4f489fd1a] RESPONSE Navigate
+[1607386218.721][INFO]: [38179c7c942345a0f3dc22d4f489fd1a] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html//input[@id='login--input--email']"
+}
+[1607386218.723][INFO]: Waiting for pending navigations...
+[1607386218.725][INFO]: Done waiting for pending navigations. Status: ok
+[1607386220.456][INFO]: Waiting for pending navigations...
+[1607386220.478][INFO]: Done waiting for pending navigations. Status: ok
+[1607386220.478][INFO]: [38179c7c942345a0f3dc22d4f489fd1a] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html//input[@id='login--input--email']"}
+  (Session info: chrome=86.0.4240.198)
+[1607386221.119][INFO]: [38179c7c942345a0f3dc22d4f489fd1a] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html//input[@id='login--input--email']"
+}
+[1607386221.119][INFO]: Waiting for pending navigations...
+[1607386221.129][INFO]: Done waiting for pending navigations. Status: ok
+[1607386221.162][INFO]: Waiting for pending navigations...
+[1607386221.164][INFO]: Done waiting for pending navigations. Status: ok
+[1607386221.164][INFO]: [38179c7c942345a0f3dc22d4f489fd1a] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html//input[@id='login--input--email']"}
+  (Session info: chrome=86.0.4240.198)
+[1607386221.382][INFO]: [38179c7c942345a0f3dc22d4f489fd1a] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html//input[@id='login--input--email']"
+}
+[1607386221.382][INFO]: Waiting for pending navigations...
+[1607386221.384][INFO]: Done waiting for pending navigations. Status: ok
+[1607386221.403][INFO]: Waiting for pending navigations...
+[1607386221.412][INFO]: Done waiting for pending navigations. Status: ok
+[1607386221.412][INFO]: [38179c7c942345a0f3dc22d4f489fd1a] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html//input[@id='login--input--email']"}
+  (Session info: chrome=86.0.4240.198)
+[1607386221.631][INFO]: [38179c7c942345a0f3dc22d4f489fd1a] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html//input[@id='login--input--email']"
+}
+[1607386221.631][INFO]: Waiting for pending navigations...
+[1607386221.632][INFO]: Done waiting for pending navigations. Status: ok
+[1607386221.649][INFO]: Waiting for pending navigations...
+[1607386221.651][INFO]: Done waiting for pending navigations. Status: ok
+[1607386221.651][INFO]: [38179c7c942345a0f3dc22d4f489fd1a] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html//input[@id='login--input--email']"}
+  (Session info: chrome=86.0.4240.198)
+[1607386221.874][INFO]: [38179c7c942345a0f3dc22d4f489fd1a] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html//input[@id='login--input--email']"
+}
+[1607386221.874][INFO]: Waiting for pending navigations...
+[1607386221.877][INFO]: Done waiting for pending navigations. Status: ok
+[1607386221.908][INFO]: Waiting for pending navigations...
+[1607386221.911][INFO]: Done waiting for pending navigations. Status: ok
+[1607386221.912][INFO]: [38179c7c942345a0f3dc22d4f489fd1a] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html//input[@id='login--input--email']"}
+  (Session info: chrome=86.0.4240.198)
+[1607386222.423][INFO]: [38179c7c942345a0f3dc22d4f489fd1a] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1607386222.423][INFO]: Waiting for pending navigations...
+[1607386222.658][INFO]: Done waiting for pending navigations. Status: ok
+[1607386223.598][INFO]: Waiting for pending navigations...
+[1607386223.601][INFO]: Done waiting for pending navigations. Status: ok
+[1607386223.607][INFO]: [38179c7c942345a0f3dc22d4f489fd1a] RESPONSE ExecuteScript "\u003Chtml lang=\"en\" class=\"windows desktop landscape\">\u003Chead>\n  \u003Cmeta charset=\"utf-8\">\n  \u003Ctitle>TownSq\u003C/title>\n  \u003Cbase href=\"/\">\n\n  \u003C!--FAVICON & TOUCH ICON TAGS-->\n  \u003Cmeta name=\"viewport\" content=\"widt..."
+[1607386225.177][INFO]: [38179c7c942345a0f3dc22d4f489fd1a] COMMAND Screenshot {
+
+}
+[1607386225.177][INFO]: Waiting for pending navigations...
+[1607386225.179][INFO]: Done waiting for pending navigations. Status: ok
+[1607386226.016][INFO]: Waiting for pending navigations...
+[1607386226.017][INFO]: Done waiting for pending navigations. Status: ok
+[1607386226.018][INFO]: [38179c7c942345a0f3dc22d4f489fd1a] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABUYAAAKoCAYAAAC7qCUdAAAAAXNSR0IArs4c6QAAFAlJREFUeJzt2DEBACAMwDDAv+fhAo4mCnp3z8wsAAAAAICQ8zsAAAAAAOA1YxQAAAAAyDFGAQAAAIAcYxQAAAAAyDFGAQAAAIAcYxQAAAAAyDFGAQAAAIAcYxQAAAAAyDFGA..."
+[1607386226.835][INFO]: [38179c7c942345a0f3dc22d4f489fd1a] COMMAND Quit {
+
+}
+[1607386230.132][INFO]: [38179c7c942345a0f3dc22d4f489fd1a] RESPONSE Quit
